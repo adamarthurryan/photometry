@@ -1,0 +1,19 @@
+stars:
+  - name: Target Star
+    type: target
+    ra: 123.45
+    dec: -12.34
+  - name: Comp1
+    type: comparison
+    ra: 123.50
+    dec: -12.30
+    magnitudes:
+      V: 10.5
+      B: 11.0
+  - name: Check1
+    type: check
+    ra: 123.55
+    dec: -12.35
+    magnitudes:
+      V: 11.2
+      B: 11.7
