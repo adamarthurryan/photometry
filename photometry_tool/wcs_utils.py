@@ -5,8 +5,10 @@ import astropy.units as u
 
 
 def has_wcs(fits_file):
+    """Return True if the FITS header contains celestial WCS information."""
     with fits.open(fits_file) as hdul:
         wcs = WCS(hdul[0].header)
+    return wcs.has_celestial
 
 
 def compute_star_pixel_positions(fits_file, stars):
