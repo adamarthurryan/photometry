@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from astropy.time import Time
-from collections import defaultdict
 from collections import namedtuple, defaultdict
 from itertools import cycle
 
